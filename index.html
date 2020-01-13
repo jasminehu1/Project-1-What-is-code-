@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="mainstylesheet.css" type="text/css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project 1 What is Code?</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+    
+    body{
+        /*display: flex;
+        align-items: center;*/
+        background-color: rgb(206, 252, 229) ;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        width: 100%;
+        /*padding-left: 140px;
+        padding-right: 120px;*/
+        
+        
+    }
+    .flexcontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    nav{
+        display: grid;
+        grid-template-columns: repeat( 8, 1fr);
+    }
+
+    h2{
+        font-weight: 550;
+    }
+    .bold{
+        letter-spacing: 40px;
+        font-size: 300%;
+        font-weight: 600;
+        text-align: center;
+      
+    }
+    div{
+        box-shadow: 0px 20px rgb(233, 255, 244); 
+    }
+    .resize{
+        width: 150px;
+        height: 150px;
+    }
+    .business{
+        width: 30%;
+        height: 30%;
+        /*display: flex;
+        flex-wrap: wrap;
+        align-items: center;*/
+    }
+    
+    .image8{
+        width: 30%;
+        height: 30%;
+    }
+    .image4{
+        width: 30%;
+        height: 30%;
+    }
+    
+    </style>
+</head>
+<body>
+
+<header>
+<div class="flexcontainer">
+    <h1 class="bold">CHAPTER 5</h1>
+</header>
+
+<nav>
+    <a>5.1</a>
+    <a>5.2</a>
+    <a>5.3</a>
+    <a>5.4</a>
+    <a>5.5</a>
+    <a>5.6</a>
+    <a>5.7</a>
+    <a>5.8</a>
+</nav>
+
+<main>
+    <div class="pov">
+        <h2>What is Meeting Really Like?</h2>
+        <img class="business" src="https://www.oxfordleadership.com/wp-content/uploads/2016/08/business-meeting-illustration.jpg" alt="business-meeting-illustration">
+            <p>
+                A meeting between programmers is exhausting, there are so many fine details to comb through and each programmer will have thier own opinion on the matter. Hours of conference can be put on one matter and still in the end not even a line of code will be written by the end, just endless discussion, notetaking, and scribbles
+            </p>
+    </div>
+    
+    <div class="1">
+        <h2>5.1 What is the Relationship Between Code and Data?</h2>
+            <p>
+                E-mails, tweets, Facebook posts, Word documents, Fitbit exercise tracker, these are all things that data comes from. Data management is the problem that programming is supposes to solve but because technology is evergrowing, there are now computers everywhere. Which requires more programming. Then there's more data. Then more programming. It's a vicious endless cycle. 
+            </p>
+    </div>
+
+    <div class="2">
+        <h2>5.2 Where Does Data Live?</h2>
+            <p>
+                The most prevalent is the relational database, using a language called SQL, for Structured Query Language. It's basically a library, each item has a ID and can be found in this database with that ID. Then there's Oracle, Oracle makes you pay thousands of dollars to use its commercial enterprise database, but more and more of the world runs on free software databases.
+            </p>
+    </div>
+
+    <div class="3">
+        <h2>5.3 The Language of White Collars</h2>
+            <p>
+                Most programmers think of Java when it comes to corporate programming. Java is a programming language that was born at Sun Microsystems, the product of a team led by a well-regarded programmer named James Gosling. Some people complain but Java gets the job done.
+            </p>
+            <p>
+                Java is a big language but it came with a ton of built-in classes to deal with a database, documents, mathematics and network services. Java also automatically generated documentation, now you could run a tool called javadoc, and it would make you Web pages that listed all the classes and methods.There were a lot of Java manuals, workshops and training seminars, and certifications. Programmers can take classes and tests to be officially certified in many technologies. Java programmers had an especially wide range to choose from.
+            </p>
+    </div>
+
+    <div class="4">
+        <h2>5.4 Briefly on the Huge Subject of Microsoft</h2>
+        <img class="image4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/439px-Microsoft_logo.svg.png" alt="Microsoft_logo">
+            <p>
+                Microsoft does not like Java, it was worming their way into their money and enterprises. Don’t ever count Microsoft out. Statically typed, scripting, data-driven, functional—name your ambiguous adjective, and Microsoft will sell something that delivers that to you, and you can write Windows code in it and live a Windows life. Microsoft products can be as good as or better than anything else on the market.
+            </p>
+     </div>
+
+    <div class="5">
+        <h2>5.5 Liquid Infrastructure</h2>
+            <p>
+                Google and Amazon are high-preforming companies that have cultures that know how to make software. They have whole departments dedicated to testing.
+            </p>
+            <p>
+                Academic researchers often produce things that basically work but don’t have interfaces. They need to prove their theses, publish, and move on to the next thing. People in the free software community often code to scratch an itch and release that code into the digital commons so that other people can modify and manipulate it. While more often than not this process goes nowhere, over time some projects capture the imagination of others and become part of the infrastructure of the world.
+            </p>
+            <p>
+                Java, interestingly, profits from all this. It’s designed for big corporate projects and has the infrastructure to support them. It’s also a useful language for midsize tasks. Eventually, people realized that if they didn’t like the Java language, they could write other languages that compile to Java “bytecode” and run on the Java virtual machine.
+            </p>
+            <p>
+                Languages can be updated to use code from other languages; this is the case for Clojure, which is a Lisp language adapted by Rich Hickey. This transmutable property of code makes its infrastructure very fluid.
+            </p>
+    </div>
+
+    <div class="6">
+        <h2>5.6 Off the Shelf</h2>
+            <p>
+                You’re making a system that will integrate with the systems around it and your company is a set of such systems, nothing is truly off the shelf. There are tools and packages and libraries, and if you have any wit at all you already use well-documented, free code for things such as e-mail validation, but that obviates only so much.
+            </p>
+    </div>
+
+    <div class="item7">
+        <h2>5.7 What about Javascript?</h2>
+        <img class="resize" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript-logo">
+        <p>
+            Javascript makes webpages interactive. Javascript became important when people came to understand Ajax, which turns web pages into software and enables the Internet to be not just a publishing platform but an app-delivery platform.
+        </p> 
+            
+    </div>
+
+    <div class="item8">
+        <h2>5.8 What’s the Absolute Minimum I must Know About PHP?</h2>
+        <img class="image8" src="https://cdn4.iconfinder.com/data/icons/logos-3/504/php-512.png" alt="PHP">
+            <p>
+                PHP stands for Personal Home Page/Forms Interpreter. The idea was that when you loaded your Web pages, the PHP code would run before the page went out to the Internet. And PHP could, say, check whether you were logged in. PHP is okay, it just means a lot of cutting and pasting, and a lot of trips to Google to figure out why things aren’t working. It's tedious and cringy to read.
+            </p>
+    </div>
+</div>
+
+</main>
+
+</body>
+</html>
